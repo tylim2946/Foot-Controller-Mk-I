@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This device allows you to type keyboard or mouse button inputs with your foot.
+This device allows you to type keyboard or mouse button inputs with your foot (tilt angle).
 
 ## Getting Started
 
@@ -13,7 +13,18 @@ This device allows you to type keyboard or mouse button inputs with your foot.
 5. Manually enter angular position values or use `Detect` to automatically set the values from two points
 6. Click `Set Reference` to initialize your current position
 
-## Screenshots
+## Device
+
+<table>
+	<tr>
+		<td><img src="https://github.com/tylim2946/Foot-Controller-Mk-I/blob/main/images/completed_prototype (1).jpg" width="480" height="270"></td>
+		<td><img src="https://github.com/tylim2946/Foot-Controller-Mk-I/blob/main/images/completed_prototype (2).jpg" width="480" height="270"></td>
+	</tr>
+</table>
+
+The case was designed in Fusion 360 and was 3D printed using Tinkerine Ditto Pro 3D printer.
+
+## FC Options (Windows Application)
 
 <table>
 	<tr>
@@ -21,6 +32,8 @@ This device allows you to type keyboard or mouse button inputs with your foot.
 		<td><img src="https://github.com/tylim2946/Foot-Controller-Mk-I/blob/main/images/Screenshot%20(2).png" width="480" height="270"></td>
 	</tr>
 </table>
+
+The software was developed using Visual Studio and WinForms. The software will receive the 3-axes tilt angle information from the Foot Controller device (through Bluetooth using 32feet.NET library), and convert them into keystrokes using InputManager library.
 
 ## Libraries Used
 
